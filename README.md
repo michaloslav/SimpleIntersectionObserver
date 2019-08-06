@@ -51,7 +51,7 @@ const source = element.getAttribute("data-lazy-src")
 element.setAttribute("src", source)
 ```
 
-Everything else is just annoying boilerplate that you have to deal with each and every time you use Intersection observer.
+Everything else is just annoying boilerplate that you have to deal with each and every time you use IntersectionObserver.
 
 Let's rewrite that example using this package.
 
