@@ -1,6 +1,6 @@
 # SimpleIntersectionObserver
 
-This package makes lazy loading, animations and everything else you normally do with IntersectionObserver.
+This package makes lazy loading, animations and everything else you normally do with IntersectionObserver easier.
 
 ### Simple usage
 
@@ -14,7 +14,7 @@ simpleIntersectionObserver(document.getElementsByClassName('lazy'), element => {
 
 ### Why you'd want to use this
 
-Let's take a look at a simple lazy loading example using nothing but IntersectionObserver.
+Let's take a look at a simple lazy loading example using IntersectionObserver.
 
 ```javascript
 const targets = document.getElementsByClassName("lazy")
@@ -38,7 +38,7 @@ targets.forEach(target => {
 ```
 
 That's a lot of code considering all we're really doing is asking to be notified when each element appears on the screen.
-The only lines of code that actually need to be there are
+The only lines that actually need to be there are
 
 ```javascript
 const targets = document.getElementsByClassName("lazy")
