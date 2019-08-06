@@ -1,0 +1,23 @@
+{
+  "name": "simpleintersectionobserver",
+  "version": "1.0.0",
+  "description": "An easier way to observe the intersections with the viewport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "intersection",
+    "observer",
+    "intersection",
+    "viewport",
+    "observer",
+    "simple",
+    "lazy",
+    "loading",
+    "lazyload",
+    "lazy"
+  ],
+  "author": "Michael Farník",
+  "license": "ISC"
+}
