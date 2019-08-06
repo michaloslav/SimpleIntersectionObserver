@@ -2,7 +2,7 @@
 
 This package makes lazy loading, animations and everything else you normally do with IntersectionObserver easier.
 
-### Simple usage
+## Simple usage
 
 ```javascript
 import simpleIntersectionObserver from 'SimpleIntersectionObserver'
@@ -12,7 +12,7 @@ simpleIntersectionObserver(document.getElementsByClassName('lazy'), element => {
 })
 ```
 
-### Why you'd want to use this
+## Why you'd want to use this
 
 Let's take a look at a simple lazy loading example using IntersectionObserver.
 
@@ -64,12 +64,12 @@ simpleIntersectionObserver(document.getElementsByClassName('lazy'), element => {
 
 Voilà! Now we're only writing the code that really matters, avoiding the boilerplate.
 
-### Passing options
+## Passing options
 You can pass options directly to IntersectionObserver as the 3rd argument
 
 ```javascript
 simpleIntersectionObserver(elements, callback, {rootMargin: "20%", threshold: .1})
 ```
 
-### Advanced IntersectionObserver usage
+## Advanced IntersectionObserver usage
 This package is meant for simple use cases. If you're doing something more complicated (eg. doing viewport calculations based on entries), this package isn't for you.
