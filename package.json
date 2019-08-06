@@ -1,6 +1,6 @@
 {
   "name": "simpleintersectionobserver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easier way to observe the intersections with the viewport",
   "main": "index.js",
   "scripts": {
